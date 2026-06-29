@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #009B77;
+  --primary-light: #00B894;
+  --primary-dark: #007B5E;
+  --secondary: #DAA520;
+  --danger: #dc3545;
+  --success: #28a745;
+  --warning: #ffc107;
+  --info: #17a2b8;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+/* Estado colors */
+.estado-activo { color: var(--success); }
+.estado-inactivo { color: var(--danger); }
+.estado-reparacion { color: var(--warning); }
